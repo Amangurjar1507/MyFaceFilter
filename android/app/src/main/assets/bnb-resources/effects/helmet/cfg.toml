@@ -1,0 +1,32 @@
+msaa = 1
+shadowmap_size = 512
+adjust_znear = 150
+draw_order = ['!glfx_FACE_Z', 'helmet', 'glass']
+
+# PBR
+[materials.helmet]
+vs = "helmet.vert"
+fs = "helmet.frag"
+blend = "off" # "alpha", "premul_alpha", "screen", "add", "multiply", "coverage", "off"
+backfaces = false
+colorwrite = true
+zwrite = true
+shadow = false
+[materials.helmet.samplers]
+tex_diffuse="helmet_Base_Color.ktx"
+tex_normal="helmet_Normal.ktx"
+tex_mrao="helmet_MRAO.ktx"
+
+# PBR
+[materials.glass]
+vs = "glass.vert"
+fs = "glass.frag"
+blend = "alpha" # "alpha", "premul_alpha", "screen", "add", "multiply", "coverage", "off"
+backfaces = false
+colorwrite = true
+zwrite = true
+shadow = false
+[materials.glass.samplers]
+tex_diffuse="helmet_Base_Color.ktx"
+tex_normal="helmet_Normal.ktx"
+tex_mrao="helmet_MRAO.ktx"

@@ -1,0 +1,26 @@
+msaa = 1
+shadowmap_size = 512
+adjust_znear = 150
+draw_order = ['wing', 'Nimb']
+
+# PBR
+[materials.wing]
+vs = "billboard.vert"
+fs = "video_a.frag"
+blend = "alpha" # "alpha", "premul_alpha", "screen", "add", "multiply", "coverage", "off"
+backfaces = true
+colorwrite = true
+zwrite = true
+shadow = false
+[materials.wing.samplers]
+
+# PBR
+[materials.Nimb]
+vs = "billboard.vert"
+fs = "video_a.frag"
+blend = "alpha" # "alpha", "premul_alpha", "screen", "add", "multiply", "coverage", "off"
+backfaces = true
+colorwrite = true
+zwrite = true
+shadow = false
+[materials.Nimb.samplers]

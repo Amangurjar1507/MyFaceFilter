@@ -1,0 +1,130 @@
+{
+  "name": "not_set",
+  "capabilities": {
+    "effectyPlayerMajorVersion": 1,
+    "effectyPlayerMinorVersion": 0
+  },
+  "conversion": {
+    "textures": {},
+    "models": {
+      "2_5DAngel": {
+        "ignored": false
+      }
+    }
+  },
+  "rendering": {
+    "warp_mesh": "",
+    "shadowmap_size": 512,
+    "msaa": 1,
+    "adjust_znear": 150,
+    "adjust_zfar": 0,
+    "draw_order": [
+      "wing",
+      "Nimb"
+    ],
+    "materials": {
+      "wing": {
+        "enabled": true,
+        "template": {
+          "name": "default",
+          "parameters": {
+            "backfaces": "true",
+            "colorwrite": "true",
+            "zwrite": "true",
+            "shadow": "false",
+            "blend": "alpha",
+            "tex_diffuse": "no_Base_Color.png",
+            "GLFX_IBL": "false",
+            "GLFX_LIGHTS": "true",
+            "GLFX_TBN": "true",
+            "tex_normal": "no_Normal.png",
+            "GLFX_TEX_MRAO": "false",
+            "tex_metallic": "no_Metallic.png",
+            "tex_roughness": "no_Roughness.png",
+            "GLFX_AO": "false",
+            "GLFX_TEX_EMI": "false",
+            "GLFX_LIGHTING": "true",
+            "GLFX_2SIDED": "false",
+            "GLFX_USE_UVMORPH": "false",
+            "GLFX_UVMORPH_Z_UP": "false",
+            "GLFX_USE_BG": "false",
+            "GLFX_USE_AUTOMORPH": "false",
+            "GLFX_AUTOMORPH_BONE": "false",
+            "GLFX_1_BONE": "false",
+            "GLFX_USE_SHADOW": "false",
+            "GLFX_OCCLUSION": "false"
+          }
+        }
+      },
+      "Nimb": {
+        "enabled": true,
+        "template": {
+          "name": "default",
+          "parameters": {
+            "backfaces": "true",
+            "colorwrite": "true",
+            "zwrite": "true",
+            "shadow": "false",
+            "blend": "alpha",
+            "tex_diffuse": "no_Base_Color.png",
+            "GLFX_IBL": "false",
+            "GLFX_LIGHTS": "true",
+            "GLFX_TBN": "true",
+            "tex_normal": "no_Normal.png",
+            "GLFX_TEX_MRAO": "false",
+            "tex_metallic": "no_Metallic.png",
+            "tex_roughness": "no_Roughness.png",
+            "GLFX_AO": "false",
+            "GLFX_TEX_EMI": "false",
+            "GLFX_LIGHTING": "true",
+            "GLFX_2SIDED": "false",
+            "GLFX_USE_UVMORPH": "false",
+            "GLFX_UVMORPH_Z_UP": "false",
+            "GLFX_USE_BG": "false",
+            "GLFX_USE_AUTOMORPH": "false",
+            "GLFX_AUTOMORPH_BONE": "false",
+            "GLFX_1_BONE": "false",
+            "GLFX_USE_SHADOW": "false",
+            "GLFX_OCCLUSION": "false"
+          }
+        }
+      },
+      "retouch": {
+        "enabled": false,
+        "template": {
+          "name": "retouch",
+          "parameters": {
+            "backfaces": "false",
+            "colorwrite": "true",
+            "zwrite": "true",
+            "shadow": "false",
+            "blend": "off",
+            "onface": "true",
+            "mouth": "true",
+            "tex_selection": "",
+            "TEETH_WHITENING": "true",
+            "tex_lookupTeeth": "",
+            "teethWhiteningCoeff": "1.0",
+            "EYES_WHITENING": "true",
+            "tex_lookupEyes": "",
+            "eyesWhiteningCoeff": "0.5",
+            "EYES_HIGHLIGHT": "true",
+            "tex_highlight": "",
+            "SOFT_LIGHT_LAYER": "true",
+            "tex_softLight": "",
+            "NORMAL_LAYER": "true",
+            "tex_normalMakeup": "",
+            "SOFT_SKIN": "true",
+            "skinSoftIntensity": "0.7",
+            "SHARPEN_TEETH": "true",
+            "teethSharpenIntensity": "0.2",
+            "SHARPEN_EYES": "true",
+            "eyesSharpenIntensity": "0.3",
+            "PSI": "0.1",
+            "GLFX_OCCLUSION": "false"
+          }
+        }
+      }
+    }
+  }
+}

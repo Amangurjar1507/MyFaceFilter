@@ -1,0 +1,28 @@
+msaa = 1
+shadowmap_size = 512
+adjust_znear = 150
+draw_order = ['Nose', 'Ear']
+
+# PBR
+[materials.Nose]
+vs = "billboard.vert"
+fs = "tex.frag"
+blend = "alpha"
+backfaces = false
+colorwrite = true
+zwrite = true
+shadow = false
+[materials.Nose.tex_diffuse]
+tex_diffuse="nose.png"
+
+# PBR
+[materials.Ear]
+vs = "billboard.vert"
+fs = "tex.frag"
+blend = "alpha"
+backfaces = false
+colorwrite = true
+zwrite = true
+shadow = false
+[materials.Ear.tex_diffuse]
+tex_diffuse="ears.png"

@@ -1,0 +1,14 @@
+{
+  "name": "angel",
+  "frx": {
+    "type": "3d_anim",
+    "3d_anim": {
+      "type": "vfx"
+    },
+    "media": {
+      "type": "VIDEO",
+      "file": "UVAngel_F.mp4"
+    }
+  },
+  "recordDuration": 15
+}
